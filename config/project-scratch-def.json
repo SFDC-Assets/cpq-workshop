@@ -3,14 +3,10 @@
   "adminEmail": "shane@mailinator.com",
   "description": "cpq",
   "template": "0TT1U000009fMl5",
+  "features": ["enableSetPasswordInApi"],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
-    },
-    "securitySettings": {
-      "passwordPolicies": {
-        "enableSetPasswordInApi": true
-      }
     }
   }
 }
