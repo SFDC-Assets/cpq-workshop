@@ -1,9 +1,10 @@
 {
-  "orgName": "workshops",
-  "adminEmail": "shane@mailinator.com",
+  "orgName": "cpq workshop",
+  "adminEmail": "cpq@example.com",
   "description": "cpq",
-  "template": "0TT1U000009fMl5",
-  "features": ["enableSetPasswordInApi"],
+  "edition": "Enterprise",
+  "hasSampleData": "true",
+  "features": ["enableSetPasswordInApi", "cpq", "MultiCurrency", "AuthorApex"],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true

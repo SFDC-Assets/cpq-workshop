@@ -1,4 +1,10 @@
-sfdx force:org:create -f config/project-scratch-def.json -d 3 -s -w 60
+sfdx shane:org:create -f config/project-scratch-def.json -d 30 -s --wait 60 --userprefix cpq -o work.shop
+sfdx force:package:install --package=04t4N000000N6FF --wait 20 -r
+sfdx force:user:permset:assign -n SalesforceCPQ_CPQStandardPerm
+sfdx force:user:permset:assign -n SalesforceCPQ_CPQAAPerm
+
 sfdx force:source:push
-sfdx force:user:password:generate
-sfdx force:org:open -p /lightning/o/SBQQ__QuoteTemplate__c/list?filterName=Recent
+sfdx shane:user:password:set -p salesforce1 -g User -l User
+# sfdx force:org:open -p /lightning/o/SBQQ__QuoteTemplate__c/list?filterName=Recent
+
+sfdx force:org:open
