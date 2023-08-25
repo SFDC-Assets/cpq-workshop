@@ -2,6 +2,7 @@
   "orgName": "cpq workshop",
   "adminEmail": "cpq@example.com",
   "description": "cpq",
+  "template": "0TT1U000007G0aS",
   "edition": "Enterprise",
   "hasSampleData": "true",
   "features": ["enableSetPasswordInApi", "cpq", "MultiCurrency", "AuthorApex"],
